@@ -1,1 +1,8 @@
-# doom
+# Doom
+
+
+Policy gradient:
+
+
+
+Actor critic:
