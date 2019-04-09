@@ -8,6 +8,9 @@ Deep learning kurset: https://docs.google.com/document/d/1UYpSF3FguEDg_AT3Vtczj5
 Ole's videoer: https://www.youtube.com/playlist?list=PLHEFRBAk3vdLrOnirtNWp1h1U8ZLZOWXP
 
 Deep learning bogen: http://www.deeplearningbook.org/
+
+Berkeley: http://rail.eecs.berkeley.edu/deeprlcourse/
+
 # General articles:
 ViZDoom Competitions: Playing Doom from Pixels: https://arxiv.org/pdf/1809.03470.pdf
 
