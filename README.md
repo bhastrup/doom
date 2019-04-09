@@ -21,3 +21,5 @@ ViZDoom Competitions: Playing Doom from Pixels: https://arxiv.org/pdf/1809.03470
 # Actor critic:
 
 TRAINING AGENT FOR FIRST-PERSON SHOOTER GAME WITH ACTOR-CRITIC CURRICULUM LEARNING: https://openreview.net/pdf?id=Hk3mPK5gg
+
+Asynchronous Actor-Critic Agents (A3C): https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-8-asynchronous-actor-critic-agents-a3c-c88f72a5e9f2
