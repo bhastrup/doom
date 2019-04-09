@@ -1,9 +1,11 @@
 # Doom
 
-General articles:
-
-Policy gradient:
-
+# General articles:
+ViZDoom Competitions: Playing Doom from Pixels: https://arxiv.org/pdf/1809.03470.pdf
 
 
-Actor critic:
+# Policy gradient:
+
+
+
+# Actor critic:
