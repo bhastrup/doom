@@ -33,5 +33,7 @@ Asynchronous Actor-Critic Agents (A3C): https://medium.com/emergent-future/simpl
 Google paper - Asynchronous Methods for Deep Reinforcement Learning: https://arxiv.org/pdf/1602.01783.pdf
 
 # Miscellaneous:
+
 https://github.com/ppaquette/gym-doom
+
 https://gym.openai.com/envs/DoomCorridor-v0/
