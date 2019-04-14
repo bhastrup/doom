@@ -37,3 +37,5 @@ Google paper - Asynchronous Methods for Deep Reinforcement Learning: https://arx
 https://github.com/ppaquette/gym-doom
 
 https://gym.openai.com/envs/DoomCorridor-v0/
+
+https://www.codelitt.com/blog/doom-ai2/
