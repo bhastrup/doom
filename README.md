@@ -11,6 +11,10 @@ Deep learning bogen: http://www.deeplearningbook.org/
 
 Berkeley: http://rail.eecs.berkeley.edu/deeprlcourse/
 
+Openai:
+https://spinningup.openai.com/en/latest/index.html
+
+
 # General articles:
 ViZDoom Competitions: Playing Doom from Pixels: https://arxiv.org/pdf/1809.03470.pdf
 
