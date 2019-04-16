@@ -19,6 +19,8 @@ https://spinningup.openai.com/en/latest/index.html
 ViZDoom Competitions: Playing Doom from Pixels: https://arxiv.org/pdf/1809.03470.pdf
 
 
+# Deep Q:
+
 # Policy gradient:
 An introduction to Policy Gradients with Cartpole and Doom: https://medium.freecodecamp.org/an-introduction-to-policy-gradients-with-cartpole-and-doom-495b5ef2207f
 ...and code: https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/Policy%20Gradients
