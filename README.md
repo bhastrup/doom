@@ -20,6 +20,12 @@ ViZDoom Competitions: Playing Doom from Pixels: https://arxiv.org/pdf/1809.03470
 
 
 # Deep Q:
+https://arxiv.org/pdf/1609.05521.pdf
+
+https://flyyufelix.github.io/2017/10/12/dqn-vs-pg.html
+
+https://arxiv.org/pdf/1511.06581.pdf
+
 
 # Policy gradient:
 An introduction to Policy Gradients with Cartpole and Doom: https://medium.freecodecamp.org/an-introduction-to-policy-gradients-with-cartpole-and-doom-495b5ef2207f
