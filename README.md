@@ -15,9 +15,7 @@ Openai:
 https://spinningup.openai.com/en/latest/index.html
 
 Carnegie Mellon University: PGM, Deep Learning & Reinforcement Learning i ét kursus:
-https://sailinglab.github.io/pgm-spring-2019/lectures/
-
-Se projekterne også: https://sailinglab.github.io/pgm-spring-2019/project/
+https://sailinglab.github.io/pgm-spring-2019/lectures/   Se projekterne også: https://sailinglab.github.io/pgm-spring-2019/project/
 
 # General articles:
 ViZDoom Competitions: Playing Doom from Pixels: https://arxiv.org/pdf/1809.03470.pdf
