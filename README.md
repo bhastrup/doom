@@ -14,6 +14,8 @@ Berkeley: http://rail.eecs.berkeley.edu/deeprlcourse/
 Openai:
 https://spinningup.openai.com/en/latest/index.html
 
+Carnegie Mellon University: PGM, Deep Learning & Reinforcement Learning i ét kursus:
+https://sailinglab.github.io/pgm-spring-2019/lectures/
 
 # General articles:
 ViZDoom Competitions: Playing Doom from Pixels: https://arxiv.org/pdf/1809.03470.pdf
