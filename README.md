@@ -1,6 +1,4 @@
-![alt text](
-https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjwz5CexvzhAhVmsosKHc3-Bo4QjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26cad%3Drja%26uact%3D8%26ved%3D2ahUKEwjwz5CexvzhAhVmsosKHc3-Bo4QjRx6BAgBEAU%26url%3Dhttps%253A%252F%252Fwww.reddit.com%252Fr%252FDoom%252Fcomments%252F3dk06q%252Fyou_know_why_the_original_logo_was_so_great%252F%26psig%3DAOvVaw01f2Ez4stfK_FxgJ0jdOa3%26ust%3D1556876273372949&psig=AOvVaw01f2Ez4stfK_FxgJ0jdOa3&ust=1556876273372949
-)
+![alt text](https://upload.wikimedia.org/wikipedia/it/d/dd/Logo_doom.png)
 
 # Doom
 Tues gitlab: https://gitlab.gbar.dtu.dk/tuhe/02460_doom_rl_2019/tree/master
