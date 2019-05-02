@@ -13,3 +13,7 @@ Discount = 0.99
 Kernel = 8x8
 Strides = 4x4
 ```
+
+![alt text](https://github.com/bhastrup/doom/blob/master/implementations/Policy%20Gradient/TensorBoard/reward_mean_HG.png)
+
+![alt text](https://github.com/bhastrup/doom/blob/master/implementations/Policy%20Gradient/TensorBoard/value_lost_HG.png)
