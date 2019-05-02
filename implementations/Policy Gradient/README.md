@@ -1,4 +1,4 @@
-Results from Defend the Center:
+## Results from Defend the Center:
 
 ![alt text](https://github.com/bhastrup/doom/blob/master/implementations/Policy%20Gradient/TensorBoard/reward_mean_DTC.png)
 
