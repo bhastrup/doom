@@ -18,6 +18,8 @@ Number of agents = 3
 
 ## Results from Defend The Line:
 
+###### Parameters
+
 ```
 Frame size = 80x80
 Learning rate = 1e-6
