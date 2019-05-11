@@ -27,3 +27,7 @@ Discount = 0.99
 Number of agents = 8
 ```
 ![alt text](https://github.com/bhastrup/doom/blob/master/implementations/A3C/TensorBoard/a3c_dtl.png)
+
+```
+Kills mean: 32.8, Time Alive: 286.7, Frames: 1717712. All averaged over 100 episodes
+```
