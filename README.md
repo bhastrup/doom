@@ -44,6 +44,9 @@ Asynchronous Actor-Critic Agents (A3C): https://medium.com/emergent-future/simpl
 
 Google paper - Asynchronous Methods for Deep Reinforcement Learning: https://arxiv.org/pdf/1602.01783.pdf
 
+Automated Curriculum Learning by Rewarding
+Temporally Rare Events: https://njustesen.files.wordpress.com/2018/06/justesen2018automated.pdf
+
 # Miscellaneous:
 
 https://github.com/ppaquette/gym-doom
