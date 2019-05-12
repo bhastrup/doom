@@ -21,6 +21,8 @@ https://sailinglab.github.io/pgm-spring-2019/lectures/   Se projekterne også: h
 
 # General articles:
 ViZDoom Competitions: Playing Doom from Pixels: https://arxiv.org/pdf/1809.03470.pdf
+HIGH-DIMENSIONAL CONTINUOUS CONTROL USING
+GENERALIZED ADVANTAGE ESTIMATION: https://arxiv.org/pdf/1506.02438.pdf
 
 
 # Deep Q:
