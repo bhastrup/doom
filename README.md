@@ -35,6 +35,8 @@ https://arxiv.org/pdf/1511.06581.pdf
 An introduction to Policy Gradients with Cartpole and Doom: https://medium.freecodecamp.org/an-introduction-to-policy-gradients-with-cartpole-and-doom-495b5ef2207f
 ...and code: https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/Policy%20Gradients
 
+Deterministic Policy Gradient Algorithms (DeepMind) http://proceedings.mlr.press/v32/silver14.pdf
+
 
 # Actor critic:
 
