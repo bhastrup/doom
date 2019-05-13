@@ -58,3 +58,5 @@ https://github.com/ppaquette/gym-doom
 https://gym.openai.com/envs/DoomCorridor-v0/
 
 https://www.codelitt.com/blog/doom-ai2/
+
+https://github.com/eugene/pommerman/blob/master/paper.pdf
