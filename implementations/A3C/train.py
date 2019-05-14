@@ -10,27 +10,30 @@ import multiprocessing
 import gym
 from skimage import transform
 
-from estimator import Model
+from network import Model
 from worker import Worker
 from gdoom_env import *
 
-# For cropping and further image resizing, grayscaling done gdoom env
-def preprocess(state):
-    #s = state[30:-10,30:-30] # cropping, remove roof
-    s = np.asarray(state)
-    s = s / 255
-    s = transform.resize(s, [84, 84])
-
 # For setting up the gdoom environment
 def make_env():
-    env = gym.make("doom_scenario0_96-v0")
+    # 0  - Basic
+    # 1 - Corridor
+    # 2 - DefendCenter
+    # 3 - DefendLine
+    # 4 - HealthGathering
+    # 5 - MyWayHome
+    # 6 - PredictPosition
+    # 7 - TakeCover
+    # 8 - Deathmatch
+
+    env = gym.make("doom_scenario3_96-v0")
     frame = env.reset()
 
     return env
 
-NUM_WORKERS = 3
-T_MAX = 5
-VALID_ACTIONS = [0, 1, 2]
+num_workers = multiprocessing.cpu_count() # set the number as workers = available CPU threads
+t_max = 5 # update parameters in each thread after this many steps in that thread
+action_space = [0, 1, 2] # the possible actions
 
 name_of_run = 'a3c'
 summary_dir = 'logs/'+name_of_run
@@ -41,18 +44,19 @@ summary_writer = tf.summary.FileWriter(summary_dir)
 with tf.device("/cpu:0"):
 
   with tf.variable_scope("global") as vs:
-    model_net = Model(num_outputs=len(VALID_ACTIONS))
+    model_net = Model(num_outputs=len(action_space))
 
   global_counter = itertools.count()
 
+  # create process for each worker
   workers = []
-  for worker_id in range(NUM_WORKERS):
+  for worker_id in range(num_workers):
     worker = Worker(
       name="worker_{}".format(worker_id),
       env=make_env(),
       model_net=model_net,
       discount_factor = 0.99,
-      t_max=T_MAX,
+      t_max=t_max,
       global_counter=global_counter,
       summary_writer=summary_writer)
     workers.append(worker)
