@@ -43,7 +43,8 @@ class Model():
         # Predictions from chosen actions
         gather_indices_pi = tf.range(batch_size) * tf.shape(self.probs_pi)[1] + self.actions
         self.picked_action_probs_pi = tf.gather(tf.reshape(self.probs_pi, [-1]), gather_indices_pi)
-
+        
+        # Policy loss functions
         self.losses_pi = - (tf.log(self.picked_action_probs_pi) * self.targets_pi + 0.008 * self.entropy_pi)
         self.loss_pi = tf.reduce_sum(self.losses_pi, name="loss_pi")
 
@@ -52,26 +53,27 @@ class Model():
                                      1,
                                      activation_fn=None,
                                      biases_initializer=None)
-
+    
         self.logits_v = tf.contrib.layers.fully_connected(inputs=fc1_v, num_outputs=1, activation_fn=None)
         self.logits_v = tf.squeeze(self.logits_v, squeeze_dims=[1])
-
+        
         self.losses_v = 0.5 * tf.squared_difference(self.logits_v, self.targets_v)
         self.loss_v = tf.reduce_sum(self.losses_v, name="loss_v")
 
-        # Combine loss
-        self.loss = self.loss_pi + 0.5 * self.loss_v
-
+        # Combine loss, entropy added to policy loss
+        self.loss = self.loss_pi + self.loss_v
+        
+        # Get gradients from local network using local losses
         # Using the RMSPropOptimizer, https://www.tensorflow.org/api_docs/python/tf/train/RMSPropOptimizer
         # Inputs to the optimizer:
         # learning_rate: A Tensor or a floating point value. The learning rate
         # decay: Discounting factor for the history/coming gradient
         # momentum: A scalar tensor
         # epsilon: Small value to avoid zero denominator.
-
         self.optimizer = tf.train.RMSPropOptimizer(0.00025, 0.99, 0.0, 1e-6)
         self.grads_and_vars = self.optimizer.compute_gradients(self.loss)
         self.grads_and_vars = [[grad, var] for grad, var in self.grads_and_vars if grad is not None]
-
+        
+        # Apply local gradients to global network
         self.train_op = self.optimizer.apply_gradients(self.grads_and_vars,
                                                        global_step=tf.contrib.framework.get_global_step())
